@@ -94,6 +94,7 @@ dependencies {
     implementation(project(":components:comingsoon"))
     implementation(project(":animations:canvas"))
     implementation(project(":animations:lottie"))
+    implementation("com.android.volley:volley:1.2.1")
 
     addKotlinDependencies()
 

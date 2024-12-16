@@ -11,6 +11,7 @@ plugins {
 dependencies {
     implementation(project(":theme"))
     implementation(project(":components:verticalgrid"))
+    implementation("androidx.test.ext:junit-ktx:1.2.1")
 
     addComposeOfficialDependencies()
     addCoreAndroidUiDependencies()

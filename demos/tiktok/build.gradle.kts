@@ -15,6 +15,7 @@ dependencies {
     implementation(project(":components:verticalgrid"))
     implementation(project(":data"))
     implementation(project(":theme"))
+    implementation("com.android.volley:volley:1.2.1")
 
     addComposeOfficialDependencies()
     addCoreAndroidUiDependencies()
